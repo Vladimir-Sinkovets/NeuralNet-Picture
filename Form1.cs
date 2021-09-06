@@ -93,7 +93,7 @@ namespace NeuralNetPaintPicture
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            pictureBox2.Image.Save(@"D:\Универ\3 курс\Курсач\Картинки\"+ newfileName +".jpg");
+            pictureBox2.Image.Save(newfileName + ".jpg");
         }
         private void button3_Click(object sender, EventArgs e)
         {
